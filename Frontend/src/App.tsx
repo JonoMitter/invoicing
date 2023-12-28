@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import InvoiceForm from './Components/InvoiceForm/InvoiceForm';
+import UploadFile from './Components/UploadFile/UploadFile';
 
 function App() {
   return (
-    <InvoiceForm />
+    <div>
+      <InvoiceForm />
+      <UploadFile />
+    </div>
   );
 }
 
